@@ -1,0 +1,16 @@
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+yarn.lock
+package-lock.json
+node_modules/
+public/
+db.json
+yarn.lock
+.deploy*/
+Thumbs.db
+.DS_Store
+_multiconfig.yml
+*.log
