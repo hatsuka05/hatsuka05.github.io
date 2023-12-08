@@ -31,7 +31,7 @@ hexo new draft draft1
 hexo new page page1
 ```
 
-### Show list page, post, route, tag, category
+Show list page, post, route, tag, category
 
 ```shell
 hexo list [type]
@@ -57,3 +57,9 @@ Deploy site
 ```shell
 hexo clean && hexo deploy
 ```
+
+### Page structure
+
+Blog: Blog posts are prefixed with "blog-" before the file name and placed in the \_posts/blogs/ directory.
+Book: Book posts are prefixed with "book-" before the file name and placed in the \_posts/books/ directory.
+CV: CV posts are prefixed with "cv-" before the file name and placed in the \_posts/cv/ directory.
